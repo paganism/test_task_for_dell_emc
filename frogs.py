@@ -34,11 +34,11 @@ def frogs_jumping (NUM_OF_FROGS , NUM_OF_LAMPS ):
             press(lamp_number)
 
 
-def get_hex_number_of_lamp_status(LAMP_STATES):
+def get_hex_number_of_lamp_states(LAMP_STATES):
     return format(int(''.join(str(x) for x in LAMP_STATES.values())), 'X')
 
 
 if __name__ == '__main__':
     frogs_jumping(NUM_OF_FROGS, NUM_OF_LAMPS )
-    binary_num = get_hex_number_of_lamp_status(LAMP_STATES)
+    binary_num = get_hex_number_of_lamp_states(LAMP_STATES)
     print(binary_num)
