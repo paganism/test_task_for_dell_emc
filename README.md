@@ -1,7 +1,7 @@
 # This is a solution of Dell EMC test task
 
 ## What to do:
-
+```
 You are given with 100 lamps in array [1,2,3,4,5…..99,100].
 And also given 100 trained frogs.
 Each lamp has an on\off switch.
@@ -18,7 +18,7 @@ Each frog jumps on a lamp and turns its switch on/off, in this order:
 Also you are given a supplied function that presses a lamp number (i): press(i)
 Please write an algorithm or code that will imitate the jumping frogs, using the given function press(i).
 After that, take all lamps status as a binary number of 100 bits and return the hex value of it.
-
+```
 
 # How to run on linux
 
